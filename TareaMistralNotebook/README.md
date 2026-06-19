@@ -70,4 +70,4 @@ git clone https//:github.com/denisanna97-rgb/Tarea-Mistral.git
 ---
 
 # Autora
-Anna Denis - denisanna97-rgb 
+Anna Denis = denisanna97-rgb 
