@@ -34,3 +34,69 @@ Predecir cuántas "apariciones en cómics" tendrá un personaje basándose en es
 | Random Forest Regressor | - | Utilizado para el Modelo de predicción |
 
 ---
+
+# Estructura del Proyecto
+```
+Tarea-Mistral/
+│
+├── CarpetaTareaAgentes/         
+│ ├── agente_1_normalizador.py           
+│ ├── agente_2_entrenador.py
+│ ├── agente_3_comunicador.py 
+│ ├── main.py 
+│ ├── requirements.txt 
+│ └── README.md 
+│
+├── data/ 
+│ └── 07_Marvel_DC_Comic_Characters.csv
+│
+├── README.md 
+│
+└── Tarea_Mistral_fecha_18_05.ipynb 
+```
+
+---
+
+# Cómo ejecutar el proyecto
+1. Clonar el reporsitorio
+git clone https://github.com/denisanna97-rgb/Tarea-Mistral.git
+
+2. Instalar dependencias
+pip install -r requirements.txt 
+
+3. Ejecutar el proyecto
+python main.py 
+
+---
+
+# Resultados del Proyecto
+El modelo de Random Forest Regressor entrega las siguientes métricas:
+| Métrica | Interpretación |
+|---------|----------------|
+| R² | Porcentaje de variabilidad explicada por el modelo |
+| MAE | Error promedio en número de apariciones |
+| RMSE | Error cuadrático medio (penaliza errores grandes) |
+
+---
+
+# Ejemplo de Reporte Generado
+Rendimiento del modelo
+- Validación Cruzada (5 folds):
+ - R² promedio: 0.6234 (62.34%)
+
+Evaluación en Datos de Prueba:
+ - Error promedio (MAE): 42.15 apariciones
+
+---
+
+# Los factores más importantes
+1. Primera Aparición / Año: 35.2%
+2. Editorial: 18.7%
+3. Alinear: 12.4%
+4. Vivo: 8.9%
+5. ID: 7.6%
+
+---
+
+# Autora
+Anna Denis: denisanna97-rgb
