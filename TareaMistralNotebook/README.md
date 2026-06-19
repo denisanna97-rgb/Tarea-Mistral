@@ -23,10 +23,12 @@ El chatbot utiliza un "agente de pandas" con "Mistral AI" y "LangChain" para int
 ---
 
 # Estructura del Proyecto
+```
 TareaMistralNotebook/
 ├── Tarea_Mistral_fecha_18_05.ipynb   # Notebook principal con el agente
 ├── README.md                      # Este archivo
 └── sales_data_sample.csv              # Dataset de ventas 
+```
 
 ---
 
